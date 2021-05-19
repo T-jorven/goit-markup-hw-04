@@ -283,6 +283,10 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.portfolio-item:nth-last-child(-n+3) {
+  margin-bottom: 0px;
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }
