@@ -4,7 +4,7 @@
   --accent-color: #2196f3;
   --background-color: #e5e5e5;
   --header-studio: #000000;
-  --hero-background: #2f303a;
+  --footer-background: #2f303a;
   --clear-white: #ffffff;
   --contact-footer: rgba(255, 255, 255, 0.6);
   --logo2-footer: rgba(255, 255, 255, 1);
@@ -13,6 +13,7 @@
   --box-shadow: rgba(0, 0, 0, 0.15);
   --portfolio-card-border: #EEEEEE;
   --header-border: #ECECEC;
+  --hero-background: #C4C4C4;
 }
 body {
   background-color: var(--clear-white);
@@ -325,7 +326,7 @@ img {
   letter-spacing: 0.03em;
 }
 .footer-styles {
-  background-color: var(--hero-background);
+  background-color: var(--footer-background);
   padding-top: 60px;
   padding-bottom: 60px;
 }
