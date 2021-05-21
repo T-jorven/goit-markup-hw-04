@@ -315,8 +315,8 @@ img {
 .clients-flex {
   display: flex;
   align-content: space-between;
+  width:auto
 }
-
 .company-link {
   width: 170px;
   height: 92px;
@@ -327,12 +327,15 @@ img {
   border-radius: 4px;
   margin-top: 50px;
 }
+/*.company-list-item:not(:last-child){
+  margin-right: 30px;
+}*/
 .icon-company {
   width: 106px;
   height: 60px;
   fill: var(--team-icon);
 }
-.compsany-link:hover, 
+.company-link:hover, 
 .company-link:focus {
   border: 1px solid var(--accent-color);
 }
@@ -432,6 +435,14 @@ img {
 }
 .join{
   width: 206;
+}
+.join-text{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1,1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--clear-white);
 }
 .flex-join {
   display: flex;
