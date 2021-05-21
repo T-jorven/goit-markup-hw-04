@@ -12,23 +12,33 @@
     <title>Portfolio</title>
 </head>
 <body>
-<header class="header-site">
-    <div class="container header-flex">
-        <a href="./index.html" class="logo"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
-        <nav>
+    <header class="header-site">
+        <div class="container header-flex">
+            <nav class="nav-flex">
+                <a href="./index.html" class="logo"><span class="logo-web">Web</span><span
+                        class="logo-studio">Studio</span></a>
             <ul class="list nav-flex">
                 <li class="menu-list"><a href="./index.html" class="nav-item link">Студия</a></li>
                 <li class="menu-list"><a href="./portfolio.html" class="current-page link">Портфолио</a></li>
                 <li class="menu-list"><a href="" class="nav-item link">Контакты</a></li>
             </ul>
-        </nav>
-        <ul class="list contact-flex">
-            <li class="contact-flex-item"><a href="mailto:example@mail.ru" class="contact link">info@devstudio.com</a>
-            </li>
-            <li class="contact-flex-item"><a href="tel:+380961111111" class="contact link">+38 096 111 11 11</a></li>
-        </ul>
-    </div>
-</header>
+            </nav>
+            <ul class="list contact-flex">
+                <li class="contact-flex-item envelope"><a href="mailto:example@mail.ru" class="contact link">
+                        <svg class="icon-envelope">
+                            <use href="images/sprite.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a></li>
+                <li class="contact-flex-item"><a href="tel:+380961111111" class="contact link">
+                        <svg class="icon-phone">
+                            <use href="images/sprite.svg#icon-phone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a></li>
+            </ul>
+        </div>
+    </header>
     <main>
         <div class="container paddings">
             <ul class="list sorting-flex">
@@ -116,17 +126,53 @@
         </div>
     </main>
     <footer class="footer-styles">
-        <div class="container">
-            <a href="./index.html" class="logo whole-logo"><span class="logo-web">Web</span><span
-                    class="logostudio-footer">Studio</span></a>
-            <address class="footer-address">
-                <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
-                <ul class="contacts list">
-                    <li class="contacts"><a href="mailto:info@example.com" class="contact-footer link">info@example.com</a>
+        <div class="container footer-flex">
+            <div>
+                <a href="./index.html" class="logo whole-logo"><span class="logo-web">Web</span><span
+                        class="logostudio-footer">Studio</span></a>
+                <address class="footer-address">
+                    <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
+                    <ul class="contacts list">
+                        <li class="contacts"><a href="mailto:info@example.com"
+                                class="contact-footer link">info@example.com</a></li>
+                        <li class="contacts"><a href="tel:+380991111111" class="contact-footer link">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="join">
+                <p class="join-text">Присоединяйтесь</p>
+                <ul class="list flex-join">
+                    <li>
+                        <a href="" class="media-item-footer">
+                            <svg class="media-icon-footer" width="20px" height="20px">
+                                <use href="images/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="contacts"><a href="tel:+380991111111" class="contact-footer link">+38 099 111 11 11</a></li>
+                    <li>
+                        <a href="" class="media-item-footer">
+                            <svg class="media-icon-footer" width="20px" height="20px">
+                                <use href="images/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="media-item-footer">
+                            <svg class="media-icon-footer" width="20px" height="20px">
+                                <use href="images/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="media-item-footer">
+                            <svg class="media-icon-footer" width="20px" height="20px">
+                                <use href="images/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>
