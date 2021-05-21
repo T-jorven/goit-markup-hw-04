@@ -332,12 +332,13 @@ img {
   height: 60px;
   fill: var(--team-icon);
 }
+.compsany-link:hover, 
+.company-link:focus {
+  border: 1px solid var(--accent-color);
+}
 .company-link:hover .icon-company,
 .company-link:focus .icon-company {
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
-  border-radius: 4px;
- 
+  fill: var(--accent-color)
 }
 /* End of sections */
 
@@ -428,6 +429,16 @@ img {
 .location {
   margin-bottom: 9px;
   margin-top: 0;
+}
+.join{
+  width: 206;
+}
+.flex-join {
+  display: flex;
+}
+.footer-flex {
+  display: flex;
+  align-items: baseline;
 }
 /* footer */
 
