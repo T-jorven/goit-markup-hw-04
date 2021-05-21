@@ -131,6 +131,7 @@ img {
 .contact:hover,
 .contact:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* End of header */
@@ -335,3 +336,23 @@ img {
   margin-top: 0;
 }
 /* footer */
+
+/*svgs*/
+
+.icon-envelope {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 2px;
+}
+
+.icon-phone {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 2px;
+}
+/*end of svgs*/
+
+/*
+*/
