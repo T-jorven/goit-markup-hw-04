@@ -112,7 +112,7 @@ img {
 
 .contact-flex {
   display: flex;
-  margin-left: 331px;
+  margin-left: auto;
 }
 .contact-flex-item:not(:last-child) {
   margin-right: 30px;
