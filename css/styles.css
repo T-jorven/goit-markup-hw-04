@@ -259,7 +259,7 @@ img {
   margin-bottom: 10px;
 }
 .team-role{
-  size: 16px;
+  font-size: 16px;
   margin-bottom: 16px;
 }
 .team-photo {
@@ -438,12 +438,12 @@ img {
   margin-top: 0;
 }
 .join{
-  width: 206;
+  width: 206px;
 }
 .join-text{
   font-weight: bold;
   font-size: 14px;
-  line-height: 1,1;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--clear-white);
